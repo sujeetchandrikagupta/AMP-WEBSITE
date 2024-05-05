@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.autoplay{
+    height: 85%;
+    width: 85%;
+    margin-left: 100px;
+    padding-left: 50px;
+  }
+.aboutContent{
+margin-top: 8%;
+}
+.aboutParagraph {
+    margin-right: 65px;
+}
+img {
+    height: 50%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 140px;
+}
+.sectionOne{
+    height: 500px;
+    background-color: aquamarine;
+}
+.sectionTwo{
+    height: 500px;
+    background-color: aquamarine;
+}
+.container,.downloads{
+    background-color: aquamarine;
+}
+.container-right{
+    margin:5% 10% 10% 0%;
+}
+.row{
+    width: 120%;
+}
