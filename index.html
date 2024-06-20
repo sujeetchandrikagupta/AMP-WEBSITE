@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 
+  <!-- AOS Animation css link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,6 +32,7 @@
       <a class="navbar-brand" href="#contact">Contact</a>
     </div>
 
+   
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
@@ -52,7 +56,7 @@
   <!-- END OF NAVBAR -->
 
   <!-- secotion one -->
-  <div class="sectionOne" >
+  <div class="sectionOne">
     <h2 class="sOneHed bg-success d-flex justify-content-center py-2">About</h2>
     <div class="aboutContent d-flex ms-5 me-5">
       <div class="aboutImg"><img src="images/image copy 7.png" alt="aboutImg"></div>
@@ -71,7 +75,7 @@
 
   <!-- section two -->
   <div class="sectionTwo" id="interface">
-  
+
     <h2 class="sTwoHed bg-success d-flex justify-content-center mb-5 py-2">Interface</h2>
 
     <div class="autoplay">
@@ -95,19 +99,19 @@
   <!-- download -->
   <div class="downloads" id="download">
     <h2 class="bg-success d-flex justify-content-center py-2">Download</h2>
-    <div class="downloadApkFile d-flex justify-content-center py-5">  
+    <div class="downloadApkFile d-flex justify-content-center py-5" data-aos="flip-left">  
       <a href="apk_file/ASSISTENT.zip" download>
         <button type="button" class="my-2 bg-info fw-bold border border-dark border-2 p-2 rounded-pill">APK File</button>
       </a>
     </div>
     <hr>
-    <div class="downloadFile d-flex justify-content-center py-5">
+    <div class="downloadFile d-flex justify-content-center py-5" data-aos="flip-right">
       <a href="apk_file/app-file.zip" download>
         <button type="button" class="bg-info fw-bold border border-dark border-2 p-2 rounded-pill my-2">Source File</button>
       </a>
     </div>
     <div class="path d-flex justify-content-center pb-5 ">
-      <h3>Follow Path --> D:\Android App\ASSISTENT</h3>
+      <h3><span data-aos="fade-right">Follow Path --> D:\Android App\ASSISTENT</span></h3>
     </div>
   </div>
 
@@ -135,7 +139,6 @@
         </div>
       </div>
 
-
       <div class="container-right ms-5">
         <h2 class="contHead">contact me</h2>
         <div class="contPara">hello guys,<br>
@@ -154,7 +157,7 @@
   </div>
 
   <div class="footer bg-dark py-2">
-<h4 class="d-flex justify-content-center align-iterm-center text-white">copyright &copy; A3.com</h4>
+    <h4 class="d-flex justify-content-center align-iterm-center text-white">copyright &copy; A3.com</h4>
   </div>
 
   <!-- bootstrap javascript link -->
@@ -162,14 +165,20 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <!-- click slider link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  
+  <!-- click slider link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
   <!-- link js file -->
   <script src="js/script.js"></script>
 
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
-</html>                                                  
+</html>
