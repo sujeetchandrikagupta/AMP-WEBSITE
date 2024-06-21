@@ -63,9 +63,6 @@ img {
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
-    img{
-        /* margin-right: 100px; */
-    }
     .container {
         display: flex;
         flex-direction: column;
