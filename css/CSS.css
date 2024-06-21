@@ -62,7 +62,7 @@ img {
     padding-right: 300px;
 }
 
-@media (min-width: 430px) {
+@media (max-width: 430px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -112,7 +112,7 @@ img {
     }
 }
 
-@media (min-width: 720px) {
+@media (max-width: 720px) {
     img {
         height: 50%;
         width: 50%;
@@ -129,7 +129,7 @@ img {
     }
 }
 
-@media (min-width: 890px) {
+@media (max-width: 890px) {
     .aboutImg {
         width: 25%;
         height: 25%;
@@ -141,7 +141,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     img {
         height: 50%;
         width: 50%;
