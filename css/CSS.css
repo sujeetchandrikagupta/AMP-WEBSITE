@@ -109,6 +109,10 @@ img {
     .aboutParagraph {
         margin-right: -5px;
         margin: 30px 0px;
+        display: block;
+    }
+    .form-control {
+        padding-right: 250px;
     }
 }
 
